@@ -28,7 +28,7 @@ This dataset has been sourced from Kaggle's collection of ![celebrity faces](htt
 
 The original dataset contains images with improperly cropped faces, as shown below:
 
-![Improperly Cropped Face #1](url_to_img)
+![Improperly Cropped Face #1]([url_to_img](https://github.com/SohhamSeal/Eigen-Faces/blob/main/Dataset/Celebrity%20Faces%20Dataset/Megan%20Fox/019_8e696057.jpg))
 ![Improperly Cropped Face #2](url_to_img)
 
 To address this, the dataset needs to be cropped to focus solely on the facial features. Manual cropping is accurate but tedious. Therefore, we utilize the HAAR Cascade library to identify facial markers for template matching. Subsequently, we crop the images and save them in a separate location.
