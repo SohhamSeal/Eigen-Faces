@@ -28,7 +28,7 @@ This dataset has been sourced from [Kaggle's collection of celebrity faces](http
 
 The original dataset contains images with improperly cropped faces, as shown below:
 
-![Improperly Cropped Face #1](https://github.com/SohhamSeal/Eigen-Faces/blob/main/Dataset/Celebrity%20Faces%20Dataset/Megan%20Fox/019_8e696057.jpg?raw=true)
+![Improperly Cropped Face #1](https://github.com/SohhamSeal/Eigen-Faces/blob/main/Dataset/Celebrity%20Faces%20Dataset/Angelina%20Jolie/009_fb3e6174.jpg?raw=true)
 ![Improperly Cropped Face #2](https://github.com/SohhamSeal/Eigen-Faces/blob/main/Dataset/Celebrity%20Faces%20Dataset/Tom%20Hanks/012_39efc245.jpg?raw=true)
 
 To address this, the dataset needs to be cropped to focus solely on the facial features. Manual cropping is accurate but tedious. Therefore, we utilize the HAAR Cascade library to identify facial markers for template matching. Subsequently, we crop the images and save them in a separate location uing the [ROI code](https://github.com/SohhamSeal/Eigen-Faces/blob/main/ROI_Cropping.ipynb). You can find it in this [folder](https://github.com/SohhamSeal/Eigen-Faces/tree/main/Dataset/Cropped%20Celebrity%20Faces%20Dataset).
